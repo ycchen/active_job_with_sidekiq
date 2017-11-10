@@ -122,3 +122,7 @@ end
 
 * Make sure to restart redis and sidekiq whenever you make change code that will required to load a gem or library that did not get loaded. In this case, I added Faker gem after both services started, so it will required to restart both services, otherwise Faker will not work inside of ActiveJob.
 
+* rake db:create && rake db:migrate
+
+* rails s
+
