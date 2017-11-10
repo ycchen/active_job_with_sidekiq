@@ -1,0 +1,5 @@
+{
+  "name": "active_job_with_sidekiq",
+  "private": true,
+  "dependencies": {}
+}
